@@ -4,7 +4,7 @@
 # Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: prometheus  
-version: 0.1.2
+version: 0.1.3
 description: "A bundle that installs prometheus using Helm 3. Only a kubeconfig credential is used."
 # TODO: update the registry to your own, e.g. myregistry
 registry: ghcr.io/squillace
