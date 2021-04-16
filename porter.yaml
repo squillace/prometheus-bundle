@@ -69,9 +69,10 @@ uninstall:
 
 # Below is an example of how to define credentials
 # See https://porter.sh/author-bundles/#credentials
-#credentials:
-#  - name: kubeconfig
-#    path: /root/.kube/config
+credentials:
+  - name: kubeconfig
+    path: /root/.kube/config
+    required: false
 #  - name: username
 #    env: USERNAME
 
